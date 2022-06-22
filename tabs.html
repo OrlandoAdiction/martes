@@ -1,0 +1,38 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.0/themes/smoothness/jquery-ui.css">
+</head>
+</head>
+<body>
+  <div id="tabs">
+    <ul>
+      <li><a href="#tabs-1">ilustracion one</a></li>
+      <li><a href="#tabs-2">ilustracion two</a></li>
+      <li><a href="#tabs-3">ilustracion tree</a></li>
+    </ul>
+    <div id="tabs-1">
+       <img src="https://fondosmil.com/fondo/50458.jpg" alt="" width="1000px">    
+    </div>
+    <div id="tabs-2">
+       <img src="https://fondosmil.com/fondo/50632.jpg" alt="" width="1000px">    
+    </div>
+    <div id="tabs-3">
+      <img src="https://i.pinimg.com/originals/c6/c7/a0/c6c7a0e8b35939552b08b0e1d9603149.png" alt="" width="1000px">
+  </div>
+
+    <script src="https://code.jquery.com/jquery-2.2.4.js"integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.min.js" integrity="sha256-eTyxS0rkjpLEo16uXTS0uVCS4815lc40K2iVpWDvdSY=" crossorigin="anonymous"></script>
+
+    <script>
+      
+      $( "#tabs" ).tabs({
+        event: "mouseover"
+      });
+    </script>
+    
+</body>
+</html>
